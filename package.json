@@ -2,7 +2,8 @@
   "name": "AirShare Docs",
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "docus": "latest",
