@@ -1,123 +1,136 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: AirShare - Lightning-Fast File Sharing
+  description: Share files instantly across your local network with AirShare. Beautiful, secure, and cross-platform file sharing for Windows, macOS, and Linux.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Welcome to AirShare ✈️
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+Lightning-fast file sharing across your local network. Share files instantly with a beautiful, modern interface - no internet required!
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+AirShare makes transferring files between your devices as easy as drag-and-drop.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /getting-started/introduction
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Get Started
   :::
 
   :::u-button
   ---
   color: neutral
-  icon: simple-icons-github
+  icon: i-lucide-download
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: /getting-started/installation
   variant: outline
   ---
-  Star on GitHub
+  Download AirShare
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Why Choose AirShare?
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-zap
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  [Blazing Fast]{.text-primary}
   
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  Transfer files at full local network speed using the QUIC protocol. No throttling, no cloud uploads - just pure peer-to-peer speed.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-lucide-shield-check
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  [Secure & Private]{.text-primary}
   
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Your files never leave your local network. All transfers use TLS 1.3 encryption with SHA-256 hash verification for integrity.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-monitor-smartphone
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  [Cross-Platform]{.text-primary}
   
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Works seamlessly on Windows, macOS, and Linux. Share files between any devices on your network, regardless of operating system.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-lucide-radar
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  [Auto-Discovery]{.text-primary}
   
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Automatically finds other AirShare users on your network. No manual setup, no IP addresses to remember - just open and share.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-lucide-palette
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
+  [Beautiful Interface]{.text-primary}
   
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Modern, minimalist design with dark mode support. Drag-and-drop files, real-time progress tracking, and native notifications.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-lucide-globe
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  [Multilingual]{.text-primary}
   
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Available in 6 languages: English, Croatian, German, French, Italian, and Spanish. Switch languages anytime in settings.
   :::
+::
+
+::u-page-section
+#title
+Perfect For
+
+#description
+AirShare is ideal for anyone who needs to transfer files quickly and securely on their local network:
+
+- **Home Users**: Share photos, videos, and documents between your devices
+- **Small Offices**: Collaborate without cloud dependencies
+- **Designers & Creatives**: Transfer large project files instantly
+- **Students**: Share notes and assignments with classmates on the same network
+- **Privacy-Conscious Users**: Keep your files on your network, not in the cloud
+::
+
+::u-page-section
+#title
+Getting Started is Easy
+
+#description
+1. **Download & Install** - Get AirShare for your platform
+2. **Open the App** - It automatically discovers other devices
+3. **Drag & Drop** - Send files to anyone on your network
+4. **Done!** - That's it. No accounts, no configuration needed.
+
+Ready to get started? [Install AirShare →](/getting-started/installation)
 ::
